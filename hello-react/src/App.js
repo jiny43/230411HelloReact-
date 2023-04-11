@@ -67,22 +67,28 @@ import './App.css';
 //   return <div> {name ==='리액트' &&<h1>리액트입니다</h1>}</div>;
 // }
 
+// function App(){
+//   const name = '리액트';
+//   return (
+//     <div 
+//     style={{
+//       //background-color 는 -가 사라지고 카멜 표기법으로 작성됩니다.
+//       backgroundColor:'black',
+//       color:'aqua',
+//       fontSize:'48px',
+//       fontWeight:'bold',
+//       padding:16 //단위를 생략하면 바로 px로 지정됩니다. 
+//     }}
+//     >
+//       {name}
+//       </div>
+//   );
+// }
+import'./App.css';
+
 function App(){
   const name = '리액트';
-  return (
-    <div 
-    style={{
-      //background-color 는 -가 사라지고 카멜 표기법으로 작성됩니다.
-      backgroundColor:'black',
-      color:'aqua',
-      fontSize:'48px',
-      fontWeight:'bold',
-      padding:16 //단위를 생략하면 바로 px로 지정됩니다. 
-    }}
-    >
-      {name}
-      </div>
-  );
+  return<div className='react'>{name}</div>
 }
 
 export default App;
