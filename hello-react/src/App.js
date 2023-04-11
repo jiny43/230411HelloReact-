@@ -28,11 +28,51 @@ import './App.css';
 //   );
 // }
 
+// function App(){
+//   return (
+//     <div>
+//       Hello <b>react</b>
+//     </div>
+//   );
+// }
+
+// function App(){
+//   return(
+//     <div>
+//     <h1>리액트 안녕!</h1>
+//     <h2>잘 작동하니?</h2>
+//     </div>
+//   )
+// }
+// import { Fragment } from 'react';
+
+// function App(){
+//   return(
+//     <Fragment>
+//       <h1>리액트야 안녕!</h1>
+//       <h2>잘 작동하니?</h2>
+//     </Fragment>
+//   )
+// }
+// function App(){
+//   const name = '리액트';
+//   return(
+//     <>
+//     <h1>{name}
+//     </h1>
+//     </>)
+// }
 function App(){
+  const name = '리액트';
   return (
     <div>
-      Hello <b>react</b>
+      {name ==='리액트'?(
+        <h1>리액트입니다</h1>
+      ):(
+        <h2>리액트가 아닙니다.</h2>
+      )}
     </div>
   );
 }
+
 export default App;
